@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font: 14px "Microsoft YaHei UI";
+
+        }
+        a:hover{
+            color: red;
+        }
+        body{
+            background-color: #cdcdcd;
+        }
+        .box{
+            position: relative;
+            width: 220px;
+            height: 418px;
+            background-color: white;
+            margin: 100px auto;
+        }
+        img{
+            position: absolute;
+        }
+        a{
+            position: absolute;
+            top:220px;
+            left: 9px;
+            width: 200px;
+            height: 35px;
+            white-space: normal;
+            overflow: hidden;
+            color: #666666;
+            font-size: 14px;
+        }
+        .price{
+            position: absolute;
+            bottom:100px;
+            width: 100%;
+            height: 40px;
+        }
+        .now{
+            float: left;
+            margin-left: 9px;
+            line-height: 40px;
+            font-size: 18px;
+            color:red;
+        }
+        .ever {
+            float: left;
+            /*margin-left: 5px;*/
+            line-height: 42px;
+            color: #cdcdcd;
+            text-decoration: line-through;
+        }
+        .selled{
+            position: absolute;
+            width: 220px;
+            height: 20px;
+            bottom: 60px;
+        }
+        .sell-num{
+            float: left;
+            line-height: 20px;
+            margin-left: 9px;
+            font-size: 12px;
+            color: #cdcdcd;
+        }
+        .sell-num span{
+            font-size: 12px;
+            color: red;
+        }
+        .step{
+            float: left;
+            margin-left: 3px;
+            margin-top: 4px;
+            padding: 1px;
+            width: 100px;
+            height: 13px;
+            border: 1px solid red;
+            border-radius: 6px;
+        }
+        .change-r{
+            width: 50%;
+            height: 100%;
+            border-radius: 6px;
+            background-color: red;
+            transition: all 1s;
+        }
+        .step:hover .change-r{
+            width: 87%;
+        }
+        .sell-num:last-child{
+            margin-left: 2px;
+        }
+        button{
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            height: 50px;
+            background-color: red;
+            border: 2px solid transparent;
+            font-size: 18px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="phone.png" alt="">
+        <a href="#">Apple iPhone 13 (A2634) 全网通5G 手机 双卡双待 A15芯片 星光色 128G【AirPods 三代耳机+退换无忧】</a>
+        <br>
+        <div class="price">
+            <div class="now">￥6088</div>
+            <div class="ever">￥6998</div>
+        </div>
+        <div class="selled">
+            <div class="sell-num">已售<span>87%</span></div>
+            <div class="step">
+                <div class="change-r"></div>
+            </div>
+            <div class="sell-num">剩余<span>29</span>件</div>
+        </div>
+        <button>立即抢购</button>
+    </div>
+</body>
+</html>

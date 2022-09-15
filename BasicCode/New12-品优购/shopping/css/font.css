@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "iconfont"; /* Project id  */
+    src: url('../fonts/font_flom1l1q385/iconfont.ttf?t=1662712998682') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 12px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jiantou:before {
+    content: "\e662";
+}
+.icon-xiala:before {
+    content: "\e6b9";
+}
+.icon-gouwuche:before {
+    content: "\e70b";
+}
+
+/*顶部下拉*/
+.shortcut .fr a::after{
+    font-family: iconfont;
+    content:"\e6b9";
+}
+/*购物车前的购物车图标*/
+.shop-car button span::before{
+    font-family: iconfont;
+    content: "\e70b";
+}
+/*购物车之后的右箭头*/
+.shop-car button span::after{
+    font-family: iconfont;
+    content: "\e662";
+}
+/*左侧导航栏的右箭头*/
+.nav-top dl dd a::after{
+    float: right;
+    margin-right: 10px;
+    font-family: iconfont;
+    content: "\e662";
+}
+/*品优购更多右箭头*/
+.main table th a::after{
+    font-family: iconfont;
+    content: "\e662";
+}
+
+/*刷新*/
+@font-face {
+    font-family: "iconfontup"; /* Project id  */
+    src: url('../fonts/font_9d98gg1d9rh/iconfont.ttf?t=1663061742665') format('truetype');
+}
+
+.iconfontup {
+    font-family: "iconfontup" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shuaxin:before {
+    content: "\e650";
+}
+.doyou-like i::after{
+    content: "\e650";
+    font-family: iconfontup;
+    margin-left: 5px;
+}
+/*手机top置顶*/
+@font-face {
+    font-family: "iconfontto"; /* Project id  */
+    src: url('../fonts/font_g83eyw7bf5p/iconfont.ttf?t=1663144789225') format('truetype');
+}
+
+.iconfontto {
+    font-family: "iconfontto" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-shouji:before {
+    content: "\3448";
+}
+
+.icon-top:before {
+    content: "\e681";
+}
+
+/*手机*/
+@font-face {
+    font-family: "iconfonttop"; /* Project id  */
+    src: url('../fonts/font_m612xec1s5/iconfont.ttf?t=1663146196077') format('truetype');
+}
+
+.iconfonttop {
+    font-family: "iconfonttop" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shouji:before {
+    content: "\e633";
+}
+
+
+
+#top-icon ul li:first-of-type::after{
+    content: "\e681";
+    font-family: iconfontto;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+#top-icon ul li:last-of-type::after{
+    content: "\e633";
+    font-family: iconfonttop;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+/*判断信息输入是否正确*/
+@font-face {
+    font-family: "iconfonterror"; /* Project id  */
+    src: url('../fonts/font_euq2x9eb06r/iconfont.ttf?t=1663227388614') format('truetype');
+}
+
+.iconfonterror {
+    font-family: "iconfonterror" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-test:before {
+    content: "\e656";
+}
+
+.icon-cuowu:before {
+    content: "\e630";
+}
+/*错误*/
+.input-mod .error::before{
+    content: "\e630";
+    font-family: iconfonterror;
+}
+
+/*正确*/
+.input-mod .curr::before{
+    content: "\e656";
+    font-family: iconfonterror;
+    font-size: 14px;
+}

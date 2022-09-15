@@ -1,0 +1,151 @@
+/*列表页专有css*/
+
+/*秒杀*/
+.miaosha{
+    position: absolute;
+    top:35px;
+    left: 350px;
+    width: 65px;
+    height: 29px;
+    background: url("../images/miao(1).png") no-repeat center;
+    border-left: 2px solid #b1191a;
+}
+/*导航菜单*/
+.nav-top ul{
+    margin-left: 30px;
+}
+.nav-top ul li a{
+    font-size: 12px;
+}
+.nav-top ul li:nth-of-type(-n+3) a{
+    font-size: 16px !important;
+    font-weight: 700;
+}
+.nav-top ul li:last-of-type a::after{
+    font-family: iconfont;
+    content:"\e6b9";
+}
+.shoes-img{
+    width: 1200px;
+    height: 120px;
+    background: url("../images/shoes-top.png") no-repeat center;
+}
+/*手机*/
+.shop a:hover{
+    color: red;
+}
+.shop ul{
+    float: left;
+}
+.shop ul li{
+    margin-left: 16px;
+    margin-top: 15px;
+}
+.shop .box{
+    position: relative;
+    width: 220px;
+    height: 418px;
+    background-color: white;
+}
+.shop img{
+    position: absolute;
+}
+.shop a{
+    position: absolute;
+    top:220px;
+    left: 9px;
+    width: 200px;
+    height: 45px;
+    white-space: normal;
+    overflow: hidden;
+    color: #666666;
+    font-size: 14px;
+}
+.shop .price{
+    position: absolute;
+    bottom:100px;
+    width: 100%;
+    height: 40px;
+}
+.shop .now{
+    float: left;
+    margin-left: 9px;
+    line-height: 40px;
+    font-size: 18px;
+    color:red;
+}
+.shop .ever {
+    float: left;
+    /*margin-left: 5px;*/
+    line-height: 42px;
+    color: #cdcdcd;
+    text-decoration: line-through;
+}
+.shop .selled{
+    position: absolute;
+    width: 220px;
+    height: 20px;
+    bottom: 60px;
+}
+.shop .sell-num{
+    float: left;
+    line-height: 20px;
+    margin-left: 9px;
+    font-size: 12px;
+    color: #cdcdcd;
+}
+.shop .sell-num span{
+    font-size: 12px;
+    color: red;
+}
+.shop .step{
+    float: left;
+    margin-left: 3px;
+    margin-top: 4px;
+    padding: 1px;
+    width: 100px;
+    height: 13px;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+.shop .change-r{
+    width: 50%;
+    height: 100%;
+    border-radius: 6px;
+    background-color: red;
+    transition: all 1s;
+}
+.shop .step:hover .change-r{
+    width: 87%;
+}
+.shop .sell-num:last-child{
+    margin-left: 2px;
+}
+.shop button{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #b1191a;
+    border: 2px solid transparent;
+    font-size: 18px;
+    color: white;
+}
+
+/*右侧置顶*/
+#top-icon{
+    position: fixed;
+    right:70px;
+    top:550px;
+    width: 70px;
+    height: 140px;
+    background-color:#b1191a;
+    z-index: 1;
+}
+#top-icon ul li{
+    height: 70px;
+    width: 100%;
+}
+#top-icon ul li:last-of-type{
+    border-top: 1px solid white;
+}

@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5027",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "3448",
+      "unicode_decimal": 13384
+    },
+    {
+      "icon_id": "15838545",
+      "name": "top",
+      "font_class": "top",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    }
+  ]
+}

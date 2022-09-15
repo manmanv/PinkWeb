@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "iconfonttop"; /* Project id  */
+  src: url('iconfont.ttf?t=1663146196077') format('truetype');
+}
+
+.iconfonttop {
+  font-family: "iconfonttop" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shouji:before {
+  content: "\e633";
+}
+

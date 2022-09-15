@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .father{
+            padding: 2px;
+            width: 400px;
+            height: 20px;
+            border: 2px solid pink;
+            border-radius: 10px;
+            margin: 100px auto;
+        }
+        .father .son{
+            width: 50%;
+            height: 100%;
+            border-radius: 10px;
+            background-color: #ffddda;
+            transition: all 2s;
+        }
+        .father:hover .son{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="son"></div>
+    </div>
+</body>
+</html>

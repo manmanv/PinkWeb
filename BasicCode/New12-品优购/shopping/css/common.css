@@ -1,0 +1,273 @@
+/*版心*/
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*快捷导航栏*/
+.shortcut{
+    height: 30px;
+    background-color: #f1f1f1;
+    font-size: 12px;
+    color: #646464;
+    line-height: 30px;
+}
+/*导航栏左侧*/
+.shortcut .fl ul li{
+    float: left;
+}
+.fl ul li .free{
+    color: #c81623;
+}
+.fl ul li .free:hover{
+    color: red;
+}
+/*导航栏右侧*/
+.shortcut .fr ul{
+    float: right;
+}
+.shortcut .fr ul li{
+    float: left;
+    margin-left: 15px;
+}
+/*页面头部*/
+header{
+    position: relative;
+    height: 105px;
+}
+header .logo{
+    position: absolute;
+    top:20px;
+    width: 210px;
+    height: 60px;
+    background: url("../images/icons.png") no-repeat center;
+    background-position: -370px -10px;
+}
+/*搜索栏*/
+.b-search{
+    float: left;
+    margin-left: 350px;
+    height: 105px;
+}
+.search{
+    width: 535px;
+    height: 35px;
+    margin-top: 35px;
+}
+.search input{
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 450px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 2px solid #af191b;
+    outline: 0;
+}
+.search button{
+    float: left;
+    width: 82px;
+    height: 35px;
+    border: 2px solid #af191b;
+    background-color: #af191b;
+    font-size: 16px;
+    color: white;
+}
+.sm-sel{
+    margin-top: 8px;
+}
+.sm-sel ul{
+    float:left;
+    margin-left: 12px;
+}
+.sm-sel ul li{
+    float: left;
+    margin-right: 25px;
+}
+.sm-sel ul li:first-of-type a{
+    color: red;
+}
+.shop-car{
+    float: right;
+    width: 315px;
+    height: 105px;
+}
+.shop-car button{
+    display: block;
+    width: 140px;
+    height: 35px;
+    background-color: #f7f7f7;
+    border: 1px solid #dedede;
+    color: #646464;
+    margin: 35px auto;
+    outline: 0;
+}
+.shop-car .iconfont{
+    color: red;
+}
+.num-car{
+    width: 12px;
+    height: 12px;
+}
+.nav-top{
+    height: 47px;
+    border-bottom: 3px solid #b1191a;
+}
+.nav-top .all{
+    float: left;
+    margin-right: 40px;
+    width: 210px;
+    height: 47px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    line-height: 47px;
+}
+.nav-top dl{
+    background-color: #b1191a;
+    width: 210px;
+    height: 512px;
+}
+.nav-top .all dl dd a span{
+    float: right;
+    margin-right: 10px;
+}
+.nav-top .all dl dd a{
+    text-align: left;
+    padding-left: 10px;
+    font-size: 14px;
+    width:210px;
+    height: 31px;
+    color: white;
+    background-color: #c81623;
+    line-height: 31px;
+}
+
+.nav-top .w ul li a:hover{
+    color: red;
+}
+.nav-top ul li a{
+    float:left;
+    margin-right:50px;
+    font-size: 16px;
+    color: #494949;
+    text-align: center;
+    line-height: 47px;
+}
+/*过渡*/
+.nav-top .all dl dd a{
+    transition: padding 0.8s;
+}
+.nav-top .all dl dd:hover a{
+    background-color: white;
+    color: #b1191a;
+    padding-left: 20px;
+    margin-left: 1px;
+}
+
+/*底部*/
+.footer{
+    position: relative;
+    height: 418px;
+    background-color: #f5f5f5;
+}
+
+.footer .fo-top{
+    height: 110px;
+    border-bottom: 1px solid #ededed;
+}
+.fo-top>div{
+    width: 200px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 35px;
+    float: left;
+    font-size: 14px;
+    color: #333333;
+}
+.fo-top span{
+    margin-left: 5px;
+}
+.fo-top .line-font{
+    margin-top: 5px;
+}
+.fo-top span:last-of-type{
+    font-size: 12px;
+    color: #8a8a8a;
+}
+.baozhang .icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url("../images/icons.png") no-repeat center;
+    background-position: -253px -2px;
+}
+.wuliu .icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url("../images/icons.png") no-repeat center;
+    background-position: -253px -2px;
+}
+.shouhou .icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url("../images/icons.png") no-repeat center;
+    background-position: -255px -54px;
+}
+.fuwu .icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url("../images/icons.png") no-repeat center;
+    background-position: -256px -106px;
+}
+.bangzhu .icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url("../images/icons.png") no-repeat center;
+    background-position: -258px -156px;
+}
+.fo-middle{
+    float: left;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ededed;
+}
+.fo-middle dl{
+    float: left;
+    margin-left: 52px;
+    margin-right: 65px;
+}
+.fo-middle dt{
+    font-size: 16px;
+}
+.fo-middle dd{
+    line-height: 22px;
+}
+.fo-middle .code-p{
+    width: 90px;
+    height: 90px;
+    margin-left: -10px;
+    background: url("../images/code.png") no-repeat;
+}
+.fo-bottom .fo-footer{
+    margin-left: 115px;
+    margin-top: 20px;
+    text-align: center;
+}
+.fo-footer ul li{
+    float: left;
+}
+.fo-footer ul li span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.foo-footer span{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}

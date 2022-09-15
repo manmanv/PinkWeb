@@ -1,0 +1,348 @@
+/*版心*/
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*main盒子*/
+.w .main{
+    height:455px;
+    /*background-color:#ffddda;*/
+    margin:10px 0px 10px 220px;
+}
+.main .focus{
+    float: left;
+    width: 720px;
+    height: 100%;
+    background: url("../upload/focus.jpg") no-repeat;
+}
+.main .newflash{
+    float: right;
+    width: 250px;
+    height: 100%;
+    /*background-color: #cdcdcd;*/
+}
+.newflash .ta-one{
+    height: 165px;
+    width: 100%;
+}
+.newflash .ta-one th{
+    width: 250px;
+    height: 35px;
+    border-bottom:1px dotted #e4e4e4;
+}
+.newflash .ta-one{
+    border:1px solid #e4e4e4 ;
+}
+.newflash .ta-one th div{
+    float: left;
+    margin-left: 15px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+}
+.newflash .ta-one th a{
+    float: right;
+    margin-right: 20px;
+    font-weight: 400;
+}
+.newflash .ta-one td{
+    margin-top: 12px;
+}
+.newflash .ta-one td span{
+    margin-left: 15px;
+    margin-right: 7px;
+    font-weight: 700;
+}
+.newflash .lifesty{
+    width: 250px;
+    height: 210px;
+    border-left:1px solid #e4e4e4;
+}
+.lifesty .jian{
+    position: absolute;
+    top: -3px;
+    right:0px;
+    width: 19px;
+    height:29px;
+    background: url("../images/jian(1).png") no-repeat center;
+}
+
+.lifesty ul li{
+    position: relative;
+    float: left;
+    width: 62.25px;
+    height: 70px;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+}
+.lifesty ul li a span{
+    display: block;
+    text-align: center;
+}
+.lifesty .life-pic1{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin:12px auto;
+    background:url("../images/icons.png") no-repeat center;
+    background-position: -15px -15px;
+}
+.bargin{
+    width: 250px;
+    height: 75px;
+    margin-top: 5px;
+    background: url("../upload/bargain.jpg") no-repeat center;
+}
+.tody-commd{
+    height: 165px;
+    width: 100%;
+    background-color: #ebebeb;
+}
+.tody-commd .commd{
+    float: left;
+    width: 205px;
+    height: 165px;
+    background-color: #5c5251;
+}
+.commd-pic{
+    display: block;
+    margin: 33px 0px 0px 73px;
+    background: url("../images/clock.png") no-repeat center;
+    width: 57px;
+    height: 57px;
+}
+.tody-commd .commd span{
+    float: left;
+    display: block;
+    padding-left: 65px;
+    padding-top: 10px;
+    font-size: 18px;
+    color: white;
+}
+.tody-commd .commd-mod ul li {
+    width: 248px;
+    height: 165px;
+}
+.commd-mod ul li{
+    float: left;
+    margin: 11px auto;
+    width: 248px;
+    height: 143px;
+}
+.commd-mod ul li img{
+    width: 248px;
+    border-right: 1px solid #cccccc;
+}
+.commd-mod ul li:last-of-type img{
+    border: none;
+}
+/*左侧菜单*/
+.float-left{
+    position: fixed;
+    top:350px;
+    left:80px;
+    width: 68px;
+    height: 340px;
+    z-index: 1;
+    background-color: white;
+}
+.float-left ul li{
+    font-size: 14px;
+    border-bottom: 1px solid #ededed;
+    height: 31px;
+    text-align: center;
+    line-height: 31px;
+    list-style: none;
+    color: #666666;
+}
+.float-left ul li a{
+    display: block;
+    list-style: none;
+}
+.float-left ul li:first-of-type{
+    background-color: #c81623;
+}
+.float-left ul li:first-of-type a{
+    color: white;
+}
+.float-left ul li a:hover{
+    background-color: #c81623;
+    color: white;
+}
+
+/*猜你喜欢*/
+.doyou-like{
+    height:45px;
+    width:100%;
+    margin-top: 10px;
+}
+.doyou-like span{
+    float: left;
+    font-size: 18px;
+    line-height:25px;
+    font-weight: 400;
+}
+.doyou-like i{
+    float: right;
+    margin-right: 20px;
+    padding-right: 5px;
+    line-height: 25px;
+}
+.like-pic ul li{
+    float: left;
+    width: 200px;
+    height: 232px;
+    border-top: 1px  solid #ededed;
+    border-bottom: 1px  solid #ededed;
+    border-collapse: collapse;
+}
+.like-pic ul li:first-of-type{
+    border-left:1px solid #ededed;
+}
+.like-pic ul li:last-of-type{
+    border-right:1px solid #ededed;
+}
+.like-pic ul li img{
+    display: block;
+    margin:10px auto;
+    width: 140px;
+    height: 140px;
+}
+.like-pic .like-price{
+    height: 65px;
+    width: 100%;
+    border-right: 1px solid #ededed;
+}
+.like-pic .like-price{
+    border-right: none;
+}
+.like-pic .like-price span:first-of-type{
+    display: block;
+    margin:10px 30px 0px 30px;
+    line-height: 20px;
+}
+.like-price span:last-of-type{
+    display: block;
+    margin:0px 30px 0px 30px;
+    color:red;
+    font-size: 18px;
+}
+.floor #elc-top{
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 2px solid #c81823;
+}
+#elc-top span:first-of-type{
+    float: left;
+    font-size: 18px;
+    color: #c81823;
+    line-height: 40px;
+}
+#elc-top div{
+    float:right;
+}
+#elc-top .nav-elc ul{
+    float:left;
+    line-height: 40px;
+}
+.nav-elc ul li a{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.elc-body{
+    height: 361px;
+    width: 100%;
+}
+.tab-list-item>div{
+    float: left;
+    height: 361px;
+}
+.col_210{
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_210 ul li{
+    margin-left: 13px;
+    width: 85px;
+    height: 32px;
+    float: left;
+    font-size: 12px;
+    line-height: 32px;
+    border-bottom: 1px solid;
+    color: #eeeeee;
+}
+.col_210 a img{
+    float:bottom;
+}
+.col_329{
+    width: 329px;
+}
+.col_221{
+    width: 221px;
+    border-right: 1px solid #cccccc;
+}
+.col_219{
+    width: 219px;
+}
+.bo-tm img{
+    display: block;
+    border-bottom: 1px solid #cccccc;
+}
+
+.floor #phone-top{
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 2px solid #c81823;
+}
+#phone-top span:first-of-type{
+    float: left;
+    font-size: 18px;
+    color: #c81823;
+    line-height: 40px;
+}
+#phone-top div{
+    float:right;
+}
+#phone-top .nav-elc ul{
+    float:left;
+    line-height: 40px;
+}
+.nav-elc ul li a{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.phone-body{
+    height: 361px;
+    width: 100%;
+}
+
+.floor #compu-top{
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 2px solid #c81823;
+}
+#compu-top span:first-of-type{
+    float: left;
+    font-size: 18px;
+    color: #c81823;
+    line-height: 40px;
+}
+#compu-top div{
+    float:right;
+}
+#compu-top .nav-elc ul{
+    float:left;
+    line-height: 40px;
+}
+.nav-elc ul li a{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.compu-body{
+    height: 361px;
+    width: 100%;
+}

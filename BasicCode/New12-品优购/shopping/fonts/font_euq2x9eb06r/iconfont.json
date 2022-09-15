@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfonterror",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5183661",
+      "name": "正确",
+      "font_class": "icon-test",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "6999239",
+      "name": "错误",
+      "font_class": "cuowu",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "iconfonterror"; /* Project id  */
+  src: url('iconfont.ttf?t=1663227388614') format('truetype');
+}
+
+.iconfonterror {
+  font-family: "iconfonterror" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-test:before {
+  content: "\e656";
+}
+
+.icon-cuowu:before {
+  content: "\e630";
+}
+

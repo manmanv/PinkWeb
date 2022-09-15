@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .top{
+            height: 50px;
+            background-color:  #aaaaaa;
+        }
+        .banner{
+            width: 980px;
+            height: 150px;
+            background-color: #aaaaaa;
+            margin: 10px auto;
+        }
+        .box{
+            width: 980px;
+            height: 300px;
+            margin: 0 auto;
+
+        }
+        li{
+            list-style: none;
+            background-color: #aaaaaa;
+            width: 237px;
+            height: 300px;
+            float: left;
+            margin-right: 10px;
+        }
+        .box .last{
+            margin-right: 0px;
+        }
+        .footer{
+            height: 100px;
+            background-color: #aaaaaa;
+            /*只要是通栏的盒子，不需要指定宽度*/
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="top">top</div>
+<div class="banner">bannner</div>
+<div class="box">
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li class="last">4</li>
+    </ul>
+</div>
+<div class="footer">footer</div>
+</body>
+</html>

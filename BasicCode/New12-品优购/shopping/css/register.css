@@ -1,0 +1,106 @@
+/*注册页*/
+
+/*头部边框*/
+header{
+    border-bottom:2px solid #b1191a ;
+}
+
+/*注册顶栏*/
+.nav-regi{
+    height: 42px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #ececec;
+    border: 1px solid #dddddd;
+}
+/*注册顶栏-注册新用户*/
+.nav-regi h2{
+    font-weight: 400;
+    float: left;
+    margin-left: 10px;
+    line-height: 42px;
+}
+/*注册顶栏-登录*/
+.nav-regi h3{
+    float: right;
+    font-weight: 400;
+    margin-right: 10px;
+    line-height: 42px;
+}
+/*登录按钮红色*/
+.nav-regi h3 a{
+    color: #b1191a;
+}
+
+/*信息输入模块*/
+.input-mod{
+    margin-top: 15px;
+    height: 407px;
+    width: 100%;
+}
+/*输入表单*/
+.input-mod form{
+    position: relative;
+    padding-top: 30px;
+}
+/*设置input前面的label*/
+.input-mod form li label{
+    position: absolute;
+    right:800px;
+    line-height: 35px;
+}
+/*设置input样式*/
+.input-mod form input{
+    width: 240px;
+    height: 35px;
+    margin-left:410px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+/*安全程度*/
+.input-mod .safe{
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+.safe em{
+    padding: 0 12px;
+    color: white;
+}
+
+
+/*同意用户协议*/
+.input-mod .agree input{
+    width: 12px;
+    height: 12px;
+}
+.input-mod .agree label{
+    position: static;
+}
+.input-mod .agree lable a{
+    color: #1ba1e6;
+}
+
+/*错误输入信息红字*/
+.input-mod .error{
+    color: #b1191a;
+}
+/*正确输入信息红字*/
+.input-mod .curr{
+    color: green;
+}
+
+/*完成注册按钮*/
+.input-mod form ul li:last-of-type input{
+    background-color: #b1191a;
+    border: none;
+    color: white;
+}
+
+/*底部边框*/
+.fo-bottom{
+    margin-top: 55px;
+    border-top: 1px solid #dfdfdf;
+}
+
+

@@ -1,0 +1,24 @@
+h1{
+    font-family: "Microsoft YaHei UI Light", serif;
+}
+body{
+    font-size: 15px;
+    font-family: "Microsoft YaHei UI Light", serif;
+}
+.header{
+    text-align: center;
+    height: 120px;
+    border: 2px black;
+}
+p{
+    text-indent: 2em;
+}
+.time{
+    font-size: 12px;
+}
+input{
+    font-size: 12px;
+}
+img{
+    text-align: center;
+}
