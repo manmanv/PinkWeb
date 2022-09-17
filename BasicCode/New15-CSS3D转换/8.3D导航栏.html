@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		body{
+			perspective: 400px;
+		}
+		.box{
+			position: relative;
+			width: 400px;
+			height: 80px;
+			margin: 100px auto;
+			transform-style: preserve-3d;
+			transition: all 2s;
+		}
+		.box:hover{
+			transform: rotateX(360deg);
+		}
+		.box div{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			line-height: 80px;
+			color: white;
+			text-align: center;
+			font-size: 70px;
+		}
+		.top{
+			background-color: #ff8500;
+			z-index: 3;
+			backface-visibility: hidden;
+			transform:translateZ(40px);
+		}
+		.botm{
+			background-color: #7CBCEE;
+			z-index: 2;
+			backface-visibility: hidden;
+			/*如果有移动或者其他样式，必须先写移动*/
+			transform: translateY(50%) rotateX(-90deg);
+		}
+		.bbotm{
+			background-color: #007db8;
+			z-index: 1;
+			backface-visibility: hidden;
+			transform: translateZ(-40px) rotateX(-180deg);
+		}
+		.bbbotm{
+			background-color: #00b265;
+			z-index: 0;
+			transform: translateY(-40px) rotateX(-270deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="top">黑马程序员</div>
+		<div class="botm">Pink老师</div>
+		<div class="bbotm">耶斯耶斯</div>
+		<div class="bbbotm">太棒了！</div>
+	</div>
+</body>
+</html>
